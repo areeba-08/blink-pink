@@ -1,4 +1,11 @@
 import "./globals.css";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+import Footer from "@/components/layout/footer"
+import Navbar from "@/components/layout/navbar"
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+
 
 export default function RootLayout({
   children,
@@ -7,9 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en" className={cn("font-sans", geist.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }
