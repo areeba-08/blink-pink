@@ -1,14 +1,14 @@
 import {ProductCard} from "@/components/productCard/productCard"
 import {products} from "@/components/productsData/data"
 
-const trendyProducts = products.filter(product => product.tag.includes("Trendy"))
+const luxuriosProducts = products.filter(product => product.tag.includes("Luxurious"))
 
-const TrendyProducts = () => {
+const LuxuriousProducts = () => {
   return (
-    <div className="pl-20 py-10  space-y-8">
-      <h4 className="text-2xl italic font-light">Discover The Trendiest Products</h4>
+    <div className="pl-20 py-10 space-y-8 bg-gray-100">
+      <h4 className="text-2xl italic font-light">Range Of Luxurious Bracelets</h4>
       <div className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth px-1">
-      {trendyProducts.map((product, index) => (
+      {luxuriosProducts.map((product, index) => (
         <div key={index} className="shrink-0">
           <ProductCard
             image={product.image}
@@ -27,4 +27,4 @@ const TrendyProducts = () => {
   )
 }
 
-export default TrendyProducts;
+export default LuxuriousProducts;

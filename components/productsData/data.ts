@@ -3,32 +3,76 @@ export const products  = [
     {image: "/productsImages/scrunchies.webp",
     title: "Lavender Dream Set",
     price: 149,
-    oldPrice: 199,
-    slug: "lavender-dream-set"
+    slug: "lavender-dream-set",
+    tag : ["Trendy"]
     },
     {image: "/productsImages/bow-clip.webp",
     title: "Bow Knot Claw Clip",
     price: 149,
     oldPrice: 199,
-    slug: "bow-knot-claw-clip"
+    slug: "bow-knot-claw-clip",
+    tag : ["Trendy"]
     },
     {image: "/productsImages/clawclip.webp",
     title: "Basic Matte Claw Clip",
     price: 149,
-    oldPrice: 199,
-    slug: "basic-matte-claw-clip"
+    slug: "basic-matte-claw-clip",
+    tag : ["Trendy"]
     },
     {image: "/productsImages/bands.webp",
     title: "Candy Hair Ties",
     price: 149,
     oldPrice: 199,
-    slug: "candy-hair-ties"
+    slug: "candy-hair-ties",
+    tag : ["Trendy"]
     },
     {image: "/productsImages/pastel claw clips.webp",
     title: "Soft Girl Bundle",
     price: 149,
     oldPrice: 199,
-    slug: "soft Girl Bundle"
+    slug: "soft Girl Bundle",
+    tag : ["Trendy"]
+    },
+    {image: "/productsImages/cuban bracelet.webp",
+    title: "Cuban Bracelet",
+    price: 149,
+    slug: "cuban-bracelet",
+    tag : ["Trendy","Luxurious"]
+    },
+    {image: "/productsImages/rose Luxe box.webp",
+    title: "Rose Luxe Box",
+    price: 149,
+    oldPrice: 199,
+    slug: "rose-luxe-box",
+    tag : ["Trendy"]
+    },
+    {image: "/productsImages/Pearly Flower Bracelet.webp",
+    title: "Pearly Flower Bracelet",
+    price: 149,
+    oldPrice: 199,
+    slug: "pearly-flower-bracelet",
+    tag : ["Luxurious"]
+    },
+    {image: "/productsImages/Dream Girl Bangle.webp",
+    title: "Dream Girl Bangle",
+    price: 149,
+    oldPrice: 199,
+    slug: "dream-girl-bangle",
+    tag : ["Luxurious"]
+    },
+    {image: "/productsImages/Dream Girl Bangle2.webp",
+    title: "Dream Girl Bangle",
+    price: 149,
+    oldPrice: 199,
+    slug: "dream-girl-bangle",
+    tag : ["Luxurious"]
+    },
+    {image: "/productsImages/Love Core Bracelet.webp",
+    title: "Love Core Bracelet",
+    price: 149,
+    oldPrice: 199,
+    slug: "love-core-bracelet",
+    tag : ["Luxurious"]
     },
 
 ]

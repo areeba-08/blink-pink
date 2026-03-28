@@ -25,7 +25,7 @@ export function ProductCard({
 }: ProductCardProps) {
   return (
     <Link href={`/product/${slug}`}>
-      <div className={`text-sm cursor-pointer ${className}`}>
+      <div className={`text-sm cursor-pointer mb-4 ${className}`}>
         <Image
           src={image}
           alt={title}
@@ -40,13 +40,13 @@ export function ProductCard({
 
         <div>
           {oldPrice && (
-            <span className="line-through text-gray-500 mr-2">
-              Rs.{oldPrice}
+            <span className="line-through font-light text-gray-500 mr-2">
+              Rs. {oldPrice} PKR
             </span>
           )}
 
-          <span className={`text-base ${priceClassName}`}>
-            Rs.{price}
+          <span className={`text-base font-light ${priceClassName}`}>
+            Rs. {price} PKR
           </span>
         </div>
       </div>
