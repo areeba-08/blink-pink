@@ -1,10 +1,24 @@
-import ProductCard from "@/components/productCard/productCard";
+import {ProductCard} from "@/components/productCard/productCard"
+import {products} from "@/components/productsData/data"
+
 
 const TrendyProducts = () => {
   return (
-    <div className="px-20 py-10  space-y-8">
+    <div className="pl-20 py-10  space-y-8">
       <h4 className="text-2xl italic font-light">Discover The Trendiest Products</h4>
-      <ProductCard/>
+      <div className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth px-1">
+      {products.map((product, index) => (
+        <div key={index} className="shrink-0">
+          <ProductCard
+            image={product.image}
+            title={product.title}
+            price={product.price}
+            oldPrice={product.oldPrice}
+            slug={product.slug}
+          />
+        </div>
+      ))}
+      </div>
       <span className="underline text-black flex items-center justify-center font-light cursor-pointer">
        View all
       </span>
