@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-
 const Footer = () => {
   return (
     <div
-    className="w-full bg-white px-20 py-5 text-sm">
+    className="w-full bg-white px-5 md:px-20 py-5 text-sm">
      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">  
      <div>
       <Image 

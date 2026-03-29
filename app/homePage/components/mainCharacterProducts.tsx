@@ -1,13 +1,13 @@
-import { products } from "@/components/productsData/data";
+import { products } from "@/components/data/productsData/data";
 import {ProductCard}  from "@/components/productCard/productCard";
 
 const MainCharacterProducts = () => {
   return (
-    <div className="px-20 py-10 h-300 space-y-8">
+    <div className="pl-5 md:px-20 py-10 md:h-320 space-y-8">
       <h4 className="text-2xl italic font-light">Dream Big, Stack Bold</h4>   
-      <div className="grid grid-cols-4 gap-2">
+      <div className="md:grid md:grid-cols-4 flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth px-1">
        {products.map((product, index) => (
-        <div key={index}>
+        <div key={index}  className="shrink-0">
           <ProductCard
           image={product.image}
           title={product.title}

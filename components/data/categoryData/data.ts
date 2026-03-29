@@ -5,7 +5,7 @@ export const category  = [
     slug: "Claw Clips",
     category : ["Claw Clips"]
     },
-    {image: "/categoriesMainImage/hair_bows_img.webp",
+    {image: "/categoriesMainImage/hair_bows-img.webp",
     title: "Hair bows",
     slug: "Hair Bows",
     category : ["Hair Bows"]

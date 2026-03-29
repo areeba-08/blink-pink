@@ -25,13 +25,13 @@ export function ProductCard({
 }: ProductCardProps) {
   return (
     <Link href={`/product/${slug}`}>
-      <div className={`text-sm cursor-pointer mb-4 ${className}`}>
+      <div className={`text-sm cursor-pointer mb-3 ${className}`}>
         <Image
           src={image}
           alt={title}
           width={270}
           height={270}
-          className="rounded-xl bg-pink-200 hover:scale-101 transition-transform mb-4"
+          className="rounded-xl bg-pink-200 hover:scale-101 transition-transform mb-4 md:w-72 md:h-72 h-40 w-40"
         />
 
         <h4 className={`mb-2 font-light hover:underline ${titleClassName}`}>
