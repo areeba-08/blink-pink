@@ -16,11 +16,12 @@ const ProductGrid = () => {
         <CategoryCard {...featuredProducts}/>
 
         {/* Small Two Cards */}
-        <div className="grid grid-cols-2 gap-3 md:gap-9 mt-3 h-45">
+        <div className="grid grid-cols-2 md:grid-rows-2 gap-3 md:gap-9 mt-3 h-45">
           {secondaryProducts.map((item)=>(
           <CategoryCard key={item.slug} {...item}/>
           ))}
         </div>
+        
       </div> 
     </div>
   )

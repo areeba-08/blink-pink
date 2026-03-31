@@ -6,6 +6,7 @@ import {
   Handbag, 
   MenuIcon, 
   Search,
+  SearchIcon,
   User
 } from "lucide-react";
 import {
@@ -31,8 +32,17 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Button } from "../ui/button";
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+} from "@/components/ui/input-group"
+import { useState } from "react";
 
 const Navbar = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
    <div>
     {/* Anouncement Bar */}
@@ -74,19 +84,21 @@ const Navbar = () => {
           </NavigationMenuItem>
           <NavigationMenuItem>
            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/home" className="font-extralight hover:bg-transparent">New Arrivals</Link>
+            <Link href="/newArrivals" className="font-extralight hover:bg-transparent">New Arrivals</Link>
            </NavigationMenuLink> 
           </NavigationMenuItem> 
           <NavigationMenuItem>
            <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-            <Link href="/home" className="font-extralight hover:bg-transparent">Contact</Link>
+            <Link href="/contact" className="font-extralight hover:bg-transparent">Contact</Link>
            </NavigationMenuLink> 
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
       </div>
       <div className="flex items-center gap-3">
+
         <Search className="h-5 w-5"/>
+
         <User className="h-5 w-5"/>
         <Handbag className="h-5 w-5"/>
       </div> 

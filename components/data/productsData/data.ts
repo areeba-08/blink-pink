@@ -4,7 +4,7 @@ export const products  = [
     title: "Lavender Dream Set",
     price: 149,
     slug: "lavender-dream-set",
-    tag : ["Trendy"]
+    tag : ["Trendy","New-Arrival"]
     },
     {image: "/productsImages/bow-clip.webp",
     title: "Bow Knot Claw Clip",
@@ -17,7 +17,7 @@ export const products  = [
     title: "Basic Matte Claw Clip",
     price: 149,
     slug: "basic-matte-claw-clip",
-    tag : ["Trendy"]
+    tag : ["Trendy","New-Arrival"]
     },
     {image: "/productsImages/bands.webp",
     title: "Candy Hair Ties",
@@ -31,7 +31,7 @@ export const products  = [
     price: 149,
     oldPrice: 199,
     slug: "soft Girl Bundle",
-    tag : ["Trendy"]
+    tag : ["Trendy","New-Arrival"]
     },
     {image: "/productsImages/cuban bracelet.webp",
     title: "Cuban Bracelet",
@@ -44,14 +44,14 @@ export const products  = [
     price: 149,
     oldPrice: 199,
     slug: "rose-luxe-box",
-    tag : ["Trendy"]
+    tag : ["Trendy","New-Arrival"]
     },
     {image: "/productsImages/Pearly Flower Bracelet.webp",
     title: "Pearly Flower Bracelet",
     price: 149,
     oldPrice: 199,
     slug: "pearly-flower-bracelet",
-    tag : ["Luxurious"]
+    tag : ["Luxurious","New-Arrival"]
     },
     {image: "/productsImages/Dream Girl Bangle.webp",
     title: "Dream Girl Bangle",
@@ -65,7 +65,7 @@ export const products  = [
     price: 149,
     oldPrice: 199,
     slug: "dream-girl-bangle",
-    tag : ["Luxurious"]
+    tag : ["Luxurious","New-Arrival"]
     },
     {image: "/productsImages/Love Core Bracelet.webp",
     title: "Love Core Bracelet",
