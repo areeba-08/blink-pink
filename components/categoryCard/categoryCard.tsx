@@ -29,7 +29,7 @@ export function CategoryCard({
           className="rounded-xl bg-pink-200 hover:scale-101 transition-transform "
         />
         </div>
-        <h4 className={`mt-2 hover:underline flex gap-2 ${titleClassName}`}>
+        <h4 className={`mt-2 hover:underline flex items-center gap-2 ${titleClassName}`}>
           {title}
           <ArrowRightIcon className="h-4 w-4 font-light"/>
         </h4>

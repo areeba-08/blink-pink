@@ -3,24 +3,24 @@ import { Input } from "@/components/ui/input";
 
 const Contact = () => {
   return (
-    <div className="px-80 py-10 border-t border-gray-200">
+    <div className="md:px-80 px-5 py-10 border-t border-gray-200">
       <h1 className="text-4xl font-light">Contact</h1>
 
       <div className="mt-10">
        <form>
-        <div className="mb-4 flex gap-4">  
+        <div className="mb-4 md:flex md:gap-4 space-y-3">  
          <Input
           placeholder="Name"
           type="text"
           id="name"
-          className="mt-1 block h-13 w-80 rounded-none p-3 border border-black"
+          className="mt-1 block h-13 w-full rounded-none p-3 border border-black"
          />
          <Input
           placeholder="Email"
           type="email"
           id="email"
           required
-          className="mt-1 block h-13 w-80 rounded-none p-3 border border-black"
+          className="mt-1 block h-13 w-full rounded-none p-3 border border-black"
          />
          </div>
 

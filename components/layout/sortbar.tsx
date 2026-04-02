@@ -8,11 +8,14 @@ import { Button } from "@/components/ui/button"
 import { Checkbox } from "../ui/checkbox";
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, ListFilter, Settings2 } from "lucide-react";
 
 const Sortbar = () => {
   return (
-    <div className="flex justify-between mb-6">
+    <div>
+
+      {/* Desktop Sortbar */}
+    <div className="md:flex justify-between mb-6 hidden">
       {/* Filter   */}
       <div>  
       <span className="font-light text-sm">Filter:</span>
@@ -108,6 +111,21 @@ const Sortbar = () => {
       {/* Number of Products */}
       <div className="text-sm font-light">28 Products</div>
       </div>
+    </div>
+
+    {/* Mobile Sortbar */}
+    <div className="md:hidden flex justify-between mb-4" >
+
+      {/* Filter & Sort */}
+      <div className="flex items-center gap-1">
+       <Settings2 className="h-4 w-4"/>
+       <span className="font-light text-sm">Filter and Sort</span> 
+      </div>
+
+      <div>
+        <span className="font-light text-sm">16 Products</span>
+      </div>
+    </div>
     </div>
   )
 }

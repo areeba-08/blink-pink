@@ -74,11 +74,11 @@ const Navbar = () => {
             Shop
            </NavigationMenuTrigger> 
            <NavigationMenuContent>
-            <ul className="">
-             <Link href="/home" className="px-4 py-2 hover:bg-pink-200">Hair Accessories</Link>
-             <Link href="/home" className="px-4 py-2 hover:bg-pink-200">Jewellery</Link>
-             <Link href="/home" className="px-4 py-2 hover:bg-pink-200">Sunglasses</Link>
-             <Link href="/home" className="px-4 py-2 hover:bg-pink-200">Bags</Link>
+            <ul className="grid grid-rows-1 rounded-none w-40">
+             <Link href="/home" className="px-4 py-2 text-sm font-light hover:underline">Hair Accessories</Link>
+             <Link href="/home" className="px-4 py-2 text-sm font-light hover:underline">Jewellery</Link>
+             <Link href="/home" className="px-4 py-2 text-sm font-light hover:underline">Sunglasses</Link>
+             <Link href="/home" className="px-4 py-2 text-sm font-light hover:underline">Bags</Link>
             </ul>
            </NavigationMenuContent>
           </NavigationMenuItem>
@@ -98,9 +98,12 @@ const Navbar = () => {
       <div className="flex items-center gap-3">
 
         <Search className="h-5 w-5"/>
-
-        <User className="h-5 w-5"/>
+        <Link href="/profile">
+          <User className="h-5 w-5"/>
+        </Link>
+        <Link href="/cart">
         <Handbag className="h-5 w-5"/>
+        </Link>
       </div> 
     </div>
 
