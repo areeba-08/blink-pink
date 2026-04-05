@@ -20,7 +20,8 @@ export default async function ProductPage({
         image={product.image}
         title={product.title}
         price={product.price}
-        oldPrice={product.oldPrice} material={"stainless"}     />
+        oldPrice={product.oldPrice} 
+        material={"stainless"}     />
     </div>
   )
 }
