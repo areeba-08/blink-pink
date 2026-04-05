@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import heroSectionImage from "@/public/heroSection/IMG-0267.webp"
 
-const heroSection = () => {
+const HeroSection = () => {
   return (
     <div className="h-75 md:h-60 w-full bg-pink-100">
       <Image 
@@ -12,4 +12,4 @@ const heroSection = () => {
   )
 }
 
-export default heroSection;
+export default HeroSection;

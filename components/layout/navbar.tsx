@@ -47,7 +47,7 @@ const Navbar = () => {
    <div>
     {/* Anouncement Bar */}
     <div
-     className="h-10 w-screen bg-[#bc3fcc] text-white text-sm flex items-center justify-between px-10 md:px-20">
+     className="h-10 w-screen bg-[#9b549b] text-white text-sm flex items-center justify-between px-10 md:px-20">
       <ChevronLeft className="w-4 h-4"/>   
       <p>Use code LOVESWANKY for extra off</p>
       <ChevronRight className="w-4 h-4"/> 
@@ -65,12 +65,12 @@ const Navbar = () => {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+           <NavigationMenuLink asChild className="font-light hover:bg-transparent hover:underline">
             <Link href="/homePage" className="font-extralight hover:bg-transparent">Home</Link>
            </NavigationMenuLink> 
           </NavigationMenuItem> 
           <NavigationMenuItem>
-           <NavigationMenuTrigger>
+           <NavigationMenuTrigger className="font-light hover:bg-transparent hover:underline">
             Shop
            </NavigationMenuTrigger> 
            <NavigationMenuContent>
@@ -83,28 +83,35 @@ const Navbar = () => {
            </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+           <NavigationMenuLink asChild className="font-light hover:bg-transparent hover:underline">
             <Link href="/newArrivals" className="font-extralight hover:bg-transparent">New Arrivals</Link>
            </NavigationMenuLink> 
           </NavigationMenuItem> 
           <NavigationMenuItem>
-           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+           <NavigationMenuLink asChild className="font-light hover:bg-transparent hover:underline">
             <Link href="/contact" className="font-extralight hover:bg-transparent">Contact</Link>
            </NavigationMenuLink> 
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
       </div>
-      <div className="flex items-center gap-3">
 
-        <Search className="h-5 w-5"/>
+      <div className="flex items-center gap-3 cursor-pointer">
+        <Search 
+        className="h-5 w-5"
+        strokeWidth={1}/>
         <Link href="/profile">
-          <User className="h-5 w-5"/>
+          <User 
+          className="h-5 w-5"
+          strokeWidth={1}/>
         </Link>
         <Link href="/cart">
-        <Handbag className="h-5 w-5"/>
+        <Handbag 
+        className="h-5 w-5"
+        strokeWidth={1}/>
         </Link>
       </div> 
+
     </div>
 
 

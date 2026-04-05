@@ -4,75 +4,97 @@ export const products  = [
     title: "Lavender Dream Set",
     price: 149,
     slug: "lavender-dream-set",
-    tag : ["Trendy","New-Arrival"]
+    tag : ["Trendy","New-Arrival"],
+    material:["Silk"],
+    category:["Scrunchies"]
     },
     {image: "/productsImages/bow-clip.webp",
     title: "Bow Knot Claw Clip",
     price: 149,
     oldPrice: 199,
     slug: "bow-knot-claw-clip",
-    tag : ["Trendy"]
+    tag : ["Trendy"],
+    material:["ClawClip"],
+    category:["Claw-Clips"]
     },
     {image: "/productsImages/clawclip.webp",
     title: "Basic Matte Claw Clip",
     price: 149,
     slug: "basic-matte-claw-clip",
-    tag : ["Trendy","New-Arrival"]
+    tag : ["Trendy","New-Arrival"],
+    material:["ClawClip"],
+    category:["Claw-Clips"]
     },
     {image: "/productsImages/bands.webp",
     title: "Candy Hair Ties",
     price: 149,
     oldPrice: 199,
     slug: "candy-hair-ties",
-    tag : ["Trendy"]
+    tag : ["Trendy"],
+    material:["Hairties"],
+    category:["Hair-Ties"]
     },
     {image: "/productsImages/pastel claw clips.webp",
     title: "Soft Girl Bundle",
     price: 149,
     oldPrice: 199,
     slug: "soft Girl Bundle",
-    tag : ["Trendy","New-Arrival"]
+    tag : ["Trendy","New-Arrival"],
+    material:["ClawClip"],
+    category:["Claw Clips"]
     },
     {image: "/productsImages/cuban bracelet.webp",
     title: "Cuban Bracelet",
     price: 149,
     slug: "cuban-bracelet",
-    tag : ["Trendy","Luxurious"]
+    tag : ["Trendy","Luxurious"],
+    material:["Stainless"],
+    category:["Bracelets"]
     },
     {image: "/productsImages/rose Luxe box.webp",
     title: "Rose Luxe Box",
     price: 149,
     oldPrice: 199,
     slug: "rose-luxe-box",
-    tag : ["Trendy","New-Arrival"]
+    tag : ["Trendy","New-Arrival"],
+    material:[""],
+    category:["Bracelets"]
     },
     {image: "/productsImages/Pearly Flower Bracelet.webp",
     title: "Pearly Flower Bracelet",
     price: 149,
     oldPrice: 199,
     slug: "pearly-flower-bracelet",
-    tag : ["Luxurious","New-Arrival"]
+    tag : ["Luxurious","New-Arrival"],
+    material:["Stainless"],
+    category:["Bracelets"]
     },
     {image: "/productsImages/Dream Girl Bangle.webp",
     title: "Dream Girl Bangle",
     price: 149,
     oldPrice: 199,
     slug: "dream-girl-bangle",
-    tag : ["Luxurious"]
+    tag : ["Luxurious"],
+    material:["Stainless"],
+    category:["Bracelets"]
     },
     {image: "/productsImages/Dream Girl Bangle2.webp",
     title: "Dream Girl Bangle",
     price: 149,
     oldPrice: 199,
     slug: "dream-girl-bangle",
-    tag : ["Luxurious","New-Arrival"]
+    tag : ["Luxurious","New-Arrival"],
+    material:["Stainles"],
+    category:["Bracelets"]
     },
     {image: "/productsImages/Love Core Bracelet.webp",
     title: "Love Core Bracelet",
     price: 149,
     oldPrice: 199,
     slug: "love-core-bracelet",
-    tag : ["Luxurious"]
+    tag : ["Luxurious"],
+    material:["Stainless"],
+    category:["Bracelets"]
     },
 
 ]

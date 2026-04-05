@@ -1,5 +1,6 @@
 import {ProductCard} from "@/components/productCard/productCard"
 import {products} from "@/components/data/productsData/data"
+import Link from "next/dist/client/link"
 
 const trendyProducts = products.filter(product => product.tag.includes("Trendy"))
 
@@ -20,9 +21,11 @@ const TrendyProducts = () => {
         </div>
       ))}
       </div>
-      <span className="underline text-black flex items-center justify-center font-light cursor-pointer">
+      <Link 
+      href="/newArrivals" 
+      className="underline text-black flex items-center justify-center font-light cursor-pointer">
        View all
-      </span>
+      </Link>
     </div>
   )
 }

@@ -21,10 +21,13 @@ const RecomendationSection = () => {
         </div>
       ))}
       </div>
+
+      <div className="flex justify-center">
       <Button 
       className="flex items-center justify-center font-light cursor-pointer w-30 h-13">
        View all
       </Button>
+      </div>
     </div>
   )
 }

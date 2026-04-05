@@ -1,14 +1,16 @@
+"use client";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Button } from "@/components/ui/button"
+} from "@/components/ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
 import { Checkbox } from "../ui/checkbox";
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { ChevronDown, ListFilter, Settings2 } from "lucide-react";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { ChevronDown, Settings2 } from "lucide-react";
 
 const Sortbar = () => {
   return (

@@ -24,7 +24,7 @@ export function ProductCard({
   priceClassName,
 }: ProductCardProps) {
   return (
-    <Link href={`/product/${slug}`}>
+    <Link href={`/products/${slug}`}>
       <div className={`text-sm cursor-pointer mb-3 ${className}`}>
         <Image
           src={image}

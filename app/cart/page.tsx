@@ -1,11 +1,11 @@
-import RecomendationSection from "./components/recomendationSection";
+import RecommendationSection from "./components/recommendationSection";
 import CartProducts from "./components/cartProducts";
 
 const Cart = () => {
   return (
     <div>
       <CartProducts/>  
-      <RecomendationSection/>
+      <RecommendationSection/>
     </div>
   )
 }

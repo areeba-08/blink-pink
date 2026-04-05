@@ -72,7 +72,7 @@ const CartProducts = () => {
         {/* Shipping Instruction Bar */}
        <div>
         <h2 
-        className="h-10 w-full bg-[#bc3fcc] text-white text-lg flex items-center justify-center px-10 md:px-20">
+        className="h-10 w-full bg-[#9b549b] text-white text-lg flex items-center justify-center px-10 md:px-20">
         To ensure smooth delivery, we provide shipping on orders of Rs 550 or more.
         </h2>
        </div>
